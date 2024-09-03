@@ -4,5 +4,8 @@ const name = 'Rushi';
 const dob = '01/01/2024'
 
 const isAdult = () => {
-    return age >= 18;
+    if(age >= 18)
+        return true;
+    else
+        return false;
 }
