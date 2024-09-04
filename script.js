@@ -4,5 +4,6 @@ function myFunk() {
 
 function AFeature() {
     console.log("this is new feature");
+    console.log("this is new feature A");
     
 }
