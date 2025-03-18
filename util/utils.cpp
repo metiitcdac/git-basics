@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void add(int x, int y){
-    cout << x+y;
+int add(int x, int y){
+    return x+y;
 }
 
 int main(){
-    add(10, 20);
+    int res = add(10, 20);
+    cout << res;
     return 0;
 }
